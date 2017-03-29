@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CLCompile Include="$(MSBuildThisFileDirectory)App.xaml.cpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)App.xaml.h" />
+    <CLCompile Include="$(MSBuildThisFileDirectory)pch.cpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)pch.h" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)CustomGridViewItemPresenter.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SampleConfiguration.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SampleDataSource.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Common\SuspensionManager.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ItemViewer.xaml.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Common\NavigationHelper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Common\RelayCommand.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CustomGridViewItemPresenter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SampleConfiguration.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SampleDataSource.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Common\SuspensionManager.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ItemViewer.xaml.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Common\NavigationHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Common\RelayCommand.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)ItemViewer.xaml" />
+    <Page Include="$(MSBuildThisFileDirectory)Sample-Utils\ScenariosTemplateStyles.xaml">
+      <Filter>Sample-Utils</Filter>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60Banana.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60Lemon.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60Mail01.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60Mail02.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60Mail03.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60Mint.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60Orange.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60SauceCaramel.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60SauceChocolate.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60SauceStrawberry.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60SprinklesChocolate.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60SprinklesRainbow.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60SprinklesVanilla.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60Strawberry.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60Vanilla.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\110Banana.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\110Lemon.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\110Mint.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\110Orange.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\110Strawberry.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\110Vanilla.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\220Strawberry.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\banana.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\mint.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\msg.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\orange.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\strawberry.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\vanilla.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)Assets\mediumtile-sdk.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Assets\microsoft-sdk.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Assets\smalltile-Phone-sdk.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Assets\splash-Phone-sdk.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Assets\windows-sdk.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Assets\2-pt-fft-output.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Assets\4-pt-fft-output.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Assets\8-pt-fft-output.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Assets\2-pt-fft-output_w.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Assets\4-pt-fft-output_w.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Assets\8-pt-fft-output_w.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Assets\4-pt-fft-output_dit_w.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)Assets\8-pt-fft-output_dit_w.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{03d67507-ba32-419d-ad04-c94270b2119b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{66ec6a77-427d-4d15-891c-bc76b51b3130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sample-Utils">
+      <UniqueIdentifier>{d69401e8-fcc9-4c3e-bba8-ab494a867ab5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>ec7f6d47-058b-49fd-a67e-5138d897c48c</SharedGUID>
+    <ItemsProjectGuid>{d980953a-6dfe-402d-a9bd-0b19157e40bd}</ItemsProjectGuid>
+    <ItemsRootNamespace>Final_project</ItemsRootNamespace>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <ClCompile Include="$(MSBuildThisFileDirectory)App.xaml.cpp">
+      <DependentUpon>$(MSBuildThisFileDirectory)App.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Common\NavigationHelper.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Common\RelayCommand.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Common\SuspensionManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)CustomGridViewItemPresenter.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ItemViewer.xaml.cpp">
+      <DependentUpon>$(MSBuildThisFileDirectory)ItemViewer.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)SampleConfiguration.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SampleDataSource.cpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)App.xaml.h">
+      <DependentUpon>$(MSBuildThisFileDirectory)App.xaml</DependentUpon>
+    </ClInclude>
+    <ClCompile Include="$(MSBuildThisFileDirectory)pch.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Common\NavigationHelper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Common\RelayCommand.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Common\SuspensionManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)CustomGridViewItemPresenter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ItemViewer.xaml.h">
+      <DependentUpon>$(MSBuildThisFileDirectory)ItemViewer.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)pch.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SampleConfiguration.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SampleDataSource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)ItemViewer.xaml" />
+    <Page Include="$(MSBuildThisFileDirectory)Sample-Utils\ScenariosTemplateStyles.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="$(MSBuildThisFileDirectory)Assets\2-pt-fft-output.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Assets\2-pt-fft-output_w.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Assets\4-pt-fft-output.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Assets\4-pt-fft-output_dit_w.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Assets\4-pt-fft-output_w.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Assets\8-pt-fft-output.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Assets\8-pt-fft-output_dit_w.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Assets\8-pt-fft-output_w.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Assets\mediumtile-sdk.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Assets\microsoft-sdk.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Assets\smalltile-Phone-sdk.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Assets\splash-Phone-sdk.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Assets\windows-sdk.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\110Banana.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\110Lemon.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\110Mint.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\110Orange.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\110Strawberry.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\110Vanilla.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\220Strawberry.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60Banana.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60Lemon.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60Mail01.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60Mail02.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60Mail03.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60Mint.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60Orange.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60SauceCaramel.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60SauceChocolate.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60SauceStrawberry.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60SprinklesChocolate.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60SprinklesRainbow.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60SprinklesVanilla.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60Strawberry.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\60Vanilla.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\banana.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\mint.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\msg.png" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\orange.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\strawberry.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)SampleData\Images\vanilla.jpg" />
+  </ItemGroup>
+</Project>
