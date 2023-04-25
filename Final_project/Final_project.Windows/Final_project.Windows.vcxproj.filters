@@ -42,25 +42,10 @@
     <Image Include="Assets\SplashScreen.scale-100.png">
       <Filter>Assets</Filter>
     </Image>
-    <Image Include="squaretile-sdk.scale-100.png">
-      <Filter>Assets</Filter>
-    </Image>
-    <Image Include="tile-sdk.scale-100.png">
-      <Filter>Assets</Filter>
-    </Image>
     <Image Include="Assets\tile-sdk.scale-100.png">
       <Filter>Assets</Filter>
     </Image>
     <Image Include="Assets\squaretile-sdk.scale-100.png">
-      <Filter>Assets</Filter>
-    </Image>
-    <Image Include="splash-Windows-sdk.scale-100.png">
-      <Filter>Assets</Filter>
-    </Image>
-    <Image Include="storelogo-sdk.scale-100.png">
-      <Filter>Assets</Filter>
-    </Image>
-    <Image Include="smalltile-Windows-sdk.scale-100.png">
       <Filter>Assets</Filter>
     </Image>
     <Image Include="Assets\smalltile-Windows-sdk.scale-100.png">

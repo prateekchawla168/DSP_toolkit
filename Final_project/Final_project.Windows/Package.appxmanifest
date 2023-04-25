@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
-  <Identity Name="Microsoft.SDKSamples.ListViewSimple.CPP" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1.4.28.57" />
+  <Identity Name="Microsoft.SDKSamples.ListViewSimple.CPP" Publisher="CN=Prateek Chawla" Version="1.4.28.58" />
   <Properties>
     <DisplayName>DSP Tool Kit</DisplayName>
     <PublisherDisplayName>Prateek Chawla</PublisherDisplayName>
